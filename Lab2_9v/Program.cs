@@ -11,7 +11,7 @@ namespace lab2_9v
             const double A = -5; // От
             const double B = 5; // До
             const double H = 0.5; // Шаг
-            const double n = 10; // Кол во строк в
+            const double n = 9; // Кол во строк в
 
             CreateTable(A,B,H,n);
             Console.ReadKey();
