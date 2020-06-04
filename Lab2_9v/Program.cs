@@ -25,7 +25,6 @@ namespace lab2_9v
 
         private static void CreateTable(double from, double to, double step, double stepCount)
         {
-            const double M = 263.019;
             var Rectangle = new int[,] { {-7, -6}, {-7, 5}, {3, 5}, {3, -6} };
             var values = new List<double>();
             var valuesInShape = 0;
